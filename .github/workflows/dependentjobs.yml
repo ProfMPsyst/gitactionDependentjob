@@ -1,7 +1,7 @@
 ## YAML Template.
 ---
 name: dependent jobs
-
+on: push
 jobs:
   job_on_ubuntu:
     runs-on: ubuntu-latest
